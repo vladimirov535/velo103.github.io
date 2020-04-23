@@ -8233,7 +8233,6 @@ html p a:hover {
 	position: relative;
 	overflow: hidden;
 	min-height: 100vh;
-	opacity: 0;
 }
 
 .page.fadeIn {
@@ -35909,4 +35908,47 @@ ul ul, ul ol, ol ul, ol ol {
 		right: 40px;
 		bottom: 40px;
 	}
+}
+
+
+.price-page {
+	flex-direction: column;
+	align-items: center;
+}
+
+.prices {
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.price-title {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.price-value {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.price-value-title {
+	text-align: left !important;
+}
+
+.price-value-price {
+    min-width: 100px;
+    text-align: right;
+}
+
+.price-empty {
+	height: 30px;
+	width: 100%;
+}
+
+.price-warning {
+	color: #291818;
+    font-weight: bold;
+    margin-top: 20px;
 }
