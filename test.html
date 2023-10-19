@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="ru">
+  <head>
+    <!-- Site Title-->
+    <title>Ремонт велосипедов в Могилеве и Минске  </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta name="description" content="Ремонт велосипедов в Могилеве, запчасти для велосипедов, веломастерская в Минске,Ремонт велосипедов в Минске, запчасти для велосипедов, веломастерская в Минске" />
+    <meta name="keywords" content="velo103, velo_103, веломастерская, веломастерская103, велосервис103" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:400,500,700%7CNoto+Sans:400,700"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+    <script src="https://vk.com/js/api/openapi.js?168" type="text/javascript"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="с">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-163831987-1');
+</script>
+  </head>
+  <body>
+    
+    <form method=POST class="form_s center-block">
+      <div class="form-group">
+        <input type="text" class="form-control" required="required" placeholder="Имя" name="name">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" required="required" placeholder="e-mail" name="mail">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" required="required" placeholder="телефон" name="phone">
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">ОТПРАВИТЬ ЗАЯВКУ И СКАЧАТЬ АНКЕТУ УЧАСТНИКА</button>
+    </form>
+
+    <script language="php"
+    $msg = 'Имя: '.$_POST['name']."\r\n E-mail: ".$_POST['mail']."\r\n Телефон: ".$_POST['phone'];
+    mail("vladimirov535@gmail.com", "Новая заявка!", $msg);
+    echo '<div class="укажитеклассздесь">Заявка успешно отправлена!</div>';
+    </script>
+
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
